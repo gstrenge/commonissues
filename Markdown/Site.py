@@ -26,7 +26,7 @@ class Site(Markdown):
             self.pages.append(Page(page_title, page_url))
     
     def generate_markdown(self):
-        markdown_text = f"#{self.title}\n"
+        markdown_text = f"# {self.title}\n"
         self.pages.sort(key= lambda element : element.title)
         for page in self.pages:
             markdown_text += f"- {page}\n"
