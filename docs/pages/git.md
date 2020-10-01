@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Git Issues
 
 ## Multiple Users Local Terminal

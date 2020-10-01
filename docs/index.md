@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Common Issues
 - [Anaconda](pages\anaconda.md)
 - [Git](pages\git.md)
