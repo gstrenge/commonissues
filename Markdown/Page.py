@@ -7,6 +7,7 @@ class Page(Markdown):
         self.url = url
 
     def generate_markdown(self):
-        return f"[{self.title}]({self.url})"
+        url_without_md = self.url.split(".")[0]
+        return f"[{self.title}]({url_without_md})"
 
     
