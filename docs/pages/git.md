@@ -6,8 +6,8 @@ layout: default
 
 ## Multiple Users Local Terminal
 Need to remove git username and email from config, and delete credentials on computer:
-- https://www.quora.com/Why-does-git-config-list-show-2-emails
-- https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal
+- [https://www.quora.com/Why-does-git-config-list-show-2-emails](https://www.quora.com/Why-does-git-config-list-show-2-emails)
+- [https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal](https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal)
 
 Edit the config file to reflect new email and name (use your username for name)
 ```

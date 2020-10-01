@@ -1,5 +1,3 @@
-from abc import ABC, abstractmethod
-
 class Markdown:
 
     def generate_markdown(self):
