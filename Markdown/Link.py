@@ -1,3 +1,5 @@
+from Markdown.Markdown import Markdown
+
 class Link(Markdown):
 
     def __init__(self, title, address):

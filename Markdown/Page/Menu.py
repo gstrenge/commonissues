@@ -44,7 +44,7 @@ class Menu(Page):
 
         markdown_text += "---"
 
-        for page in self.page:
+        for page in self.pages:
             markdown_text += f"- {page}\n"
 
         return markdown_text

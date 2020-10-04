@@ -9,7 +9,7 @@ index_file_name = "index.md"
 
 print(site)
 
-with open(os.path.join(reduce(os.path.join, main_path), index_file_name), 'w') as file:
+with open(os.path.join(reduce(os.path.join, Config.SITE_TOP_DIRECTORY), index_file_name), 'w') as file:
     file.write(f"{site}")
 
 os.system('git add .')
