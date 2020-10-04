@@ -1,9 +1,3 @@
----
-layout: default
----
-
-# Git Issues
-
 ## PEP-8 Function Comments
 - [https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
 
@@ -17,6 +11,3 @@ This is a reST style.
 :raises keyError: raises an exception
 """
 ```
-
----
-

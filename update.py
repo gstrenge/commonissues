@@ -1,12 +1,10 @@
-from Markdown.Site import Site
+from Markdown.Page.Menu import Menu
+from Markdown.Config import Config
 from functools import reduce
 import os
 
-pages_path = ["docs", "pages", "*"]
-main_path = ["docs"]
 
-
-site = Site("Common Issues", ["docs", "pages", "*"])
+site = Menu("Common Issues", Config.SITE_TOP_DIRECTORY + Config.PAGES_TOP_DIRECTORY)
 index_file_name = "index.md"
 
 print(site)

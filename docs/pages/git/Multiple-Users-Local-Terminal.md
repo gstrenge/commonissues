@@ -1,10 +1,5 @@
----
-layout: default
----
-
-# Git Issues
-
 ## Multiple Users Local Terminal
+
 Need to remove git username and email from config, and delete credentials on computer:
 - [https://www.quora.com/Why-does-git-config-list-show-2-emails](https://www.quora.com/Why-does-git-config-list-show-2-emails)
 - [https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal](https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal)
@@ -17,5 +12,3 @@ git config --global --edit
 Windows Search -> Credentials Manager -> Windows Credentials -> Generic Credentials -> `git.https://github.com` -> Remove
 
 This will prompt git to make you login on your next push/pull.
-
----
